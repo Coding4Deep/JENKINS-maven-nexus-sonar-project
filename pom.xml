@@ -19,30 +19,7 @@
 
 	
  <dependencies>
-        <!-- Servlet API -->
-        <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <version>5.0.0</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- JSP API -->
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>2.3.3</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- JSTL (JSP Standard Tag Library) -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
 	 
-
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
@@ -137,19 +114,6 @@
         <url>http://192.168.33.10:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-
-
-
-<reporting>
-     <plugins>
-        <!--  SonarQube Reports  -->
-	<plugin>
-              <groupId>org.sonarsource.scanner.maven</groupId>
-              <artifactId>sonar-maven-plugin</artifactId>
-              <version>3.9.1.2184</version>
-        </plugin>
-     </plugins>
-</reporting>
 
 
 
