@@ -13,8 +13,8 @@
 <properties> 
 <maven.compiler.source>17</maven.compiler.source> 
 <maven.compiler.target>17</maven.compiler.target> 
-<sonar.host.url>http://3.94.98.23:9000</sonar.host.url>
-<sonar.token>sqa_fcfad75f78808db25e5629b0bc76e10536cf19c1</sonar.token> 
+<sonar.host.url>http://192.168.33.10:9000/</sonar.host.url>
+<sonar.token>sqa_3665c3e99756266d994ac94ee13f1347f5288675</sonar.token> 
 </properties>
 
 	
@@ -139,7 +139,7 @@
 
     <snapshotRepository>
         <id>nexus</id>
-        <url>http://34.228.64.99:8081/repository/jenkins-snapshot/</url>
+        <url>http://192.168.33.10:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
