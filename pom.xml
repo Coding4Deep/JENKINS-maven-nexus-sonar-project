@@ -4,18 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com</groupId>
-    <artifactId>war-project</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <artifactId>JENKINS-PROJECT</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>War-Project</name>
     <url>http://maven.apache.org</url>
 
 <properties> 
 <maven.compiler.source>17</maven.compiler.source> 
 <maven.compiler.target>17</maven.compiler.target> 
-<sonar.host.url>http://192.168.33.10:9000/</sonar.host.url>
-<sonar.token>sqa_3665c3e99756266d994ac94ee13f1347f5288675</sonar.token> 
-	 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<sonar.host.url>http://54.92.234.252:9000/</sonar.host.url>
+<sonar.token>sqa_a13ff55178e697e27df99f52067e176b089103b0</sonar.token> 
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 
 	
@@ -113,12 +112,12 @@
 <distributionManagement>
     <repository>
         <id>nexus</id>
-        <url>http://3.88.101.243:8081/repository/jenkins-release/</url>
+        <url>http://3.212.232.114:8081/repository/JENKINS-RELEASE/</url>
 </repository>
 
     <snapshotRepository>
         <id>nexus</id>
-        <url>http://192.168.33.10:8081/repository/maven-snapshots/</url>
+        <url>http://3.212.232.114:8081/repository/JENKINS-SNAPSHOT/</url>
     </snapshotRepository>
 </distributionManagement>
 
